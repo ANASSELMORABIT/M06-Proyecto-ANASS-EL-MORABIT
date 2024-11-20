@@ -142,7 +142,7 @@ function crearTarjetas(filosofos) {
         }
 
         
-        let botonEliminar = document.createElement('button');  // Creamos el botón para borrar la tarjeta, y asignamos el event listener a la función eliminarTarjeta
+        let botonEliminar = document.createElement('div');  // Creamos el botón para borrar la tarjeta, y asignamos el event listener a la función eliminarTarjeta
         botonEliminar.classList.add('botonEliminar');
         botonEliminar.innerHTML = '&#x2716';
         botonEliminar.addEventListener('click', () => eliminarTarjeta(tarjeta));
