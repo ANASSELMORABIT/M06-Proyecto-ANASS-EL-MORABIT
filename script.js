@@ -224,6 +224,7 @@ function crearNuevaTarjeta(event) {
         });
     });
 
+    // Limpiar el formulario después de crear la tarjeta
     let Formulario = document.querySelector('.create-card-form');
     Formulario.querySelector('.nombre').value = '';
     Formulario.querySelector('.foto').value = '';
